@@ -1,0 +1,29 @@
+{
+  "Welcome to React": {
+    "translation": "Welcome to React",
+    "origin": [
+      [
+        "src/containers/App.js",
+        54
+      ]
+    ]
+  },
+  "To get started, edit <0>src/App.js</0> and save to reload.": {
+    "translation": "To get started, edit <0>src/App.js</0> and save to reload.",
+    "origin": [
+      [
+        "src/containers/App.js",
+        58
+      ]
+    ]
+  },
+  "Today is {currentDate,date}.": {
+    "translation": "Today is {currentDate,date}.",
+    "origin": [
+      [
+        "src/containers/App.js",
+        61
+      ]
+    ]
+  }
+}

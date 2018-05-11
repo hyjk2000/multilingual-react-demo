@@ -1,0 +1,29 @@
+{
+  "Welcome to React": {
+    "translation": "欢迎使用 React",
+    "origin": [
+      [
+        "src/containers/App.js",
+        54
+      ]
+    ]
+  },
+  "To get started, edit <0>src/App.js</0> and save to reload.": {
+    "translation": "编辑 <0>src/App.js</0> 并保存以重新加载。",
+    "origin": [
+      [
+        "src/containers/App.js",
+        58
+      ]
+    ]
+  },
+  "Today is {currentDate,date}.": {
+    "translation": "今天是 {currentDate,date}。",
+    "origin": [
+      [
+        "src/containers/App.js",
+        61
+      ]
+    ]
+  }
+}
