@@ -1,3 +1,3 @@
-import { createAction } from "redux-actions";
+import { createAction } from 'redux-actions';
 
-export const setLanguage = createAction("SET_LANGUAGE");
+export const setLanguage = createAction('SET_LANGUAGE');

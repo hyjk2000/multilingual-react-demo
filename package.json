@@ -7,6 +7,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@lingui/babel-preset-react": "^2.0.7",
+    "@lingui/cli": "2.0.1",
     "@lingui/loader": "^2.0.7",
     "@lingui/react": "^2.0.7",
     "autoprefixer": "7.1.6",
@@ -18,6 +20,7 @@
     "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
+    "cross-env": "^5.1.5",
     "css-loader": "0.28.7",
     "dotenv": "4.0.0",
     "dotenv-expand": "4.2.0",
@@ -53,11 +56,6 @@
     "webpack-dev-server": "2.9.4",
     "webpack-manifest-plugin": "1.3.2",
     "whatwg-fetch": "2.0.3"
-  },
-  "devDependencies": {
-    "@lingui/babel-preset-react": "^2.0.7",
-    "@lingui/cli": "2.0.1",
-    "cross-env": "^5.1.5"
   },
   "scripts": {
     "start": "node scripts/start.js",
@@ -110,6 +108,14 @@
   },
   "lingui": {
     "fallbackLocale": "en",
+    "format": "lingui",
+    "localeDir": "src/locale",
+    "srcPathDirs": [
+      "src"
+    ],
     "sourceLocale": "en"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }

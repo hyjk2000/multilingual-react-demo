@@ -1,1 +1,1 @@
-export { language } from "./language";
+export { language } from './language';

@@ -1,0 +1,56 @@
+{
+  "Welcome to React": {
+    "translation": "Bienvenue à React",
+    "origin": [
+      [
+        "src/containers/App.js",
+        34
+      ]
+    ]
+  },
+  "To get started, edit <0>src/App.js</0> and save to reload.": {
+    "translation": "Pour commencer, éditez <0> src / App.js </0> et enregistrez pour recharger.",
+    "origin": [
+      [
+        "src/containers/App.js",
+        45
+      ]
+    ]
+  },
+  "Today is {currentDate,date}.": {
+    "translation": "Aujourd'hui est {currentDate,date}.",
+    "origin": [
+      [
+        "src/containers/App.js",
+        50
+      ]
+    ]
+  },
+  "That'll be {amount,number,number0}.": {
+    "translation": "Ce sera {amount,number,number0}.",
+    "origin": [
+      [
+        "src/containers/App.js",
+        55
+      ]
+    ]
+  },
+  "{gender, select, male {His} female {Her} other {Their}}": {
+    "translation": "{gender, select, male {Ses} female {Ses} other {Leurs}}",
+    "origin": [
+      [
+        "src/containers/App.js",
+        86
+      ]
+    ]
+  },
+  "{count, plural, one {# child} other {# children}}": {
+    "translation": "{count, plural, one {# enfant} other {# enfants}}",
+    "origin": [
+      [
+        "src/containers/App.js",
+        88
+      ]
+    ]
+  }
+}
